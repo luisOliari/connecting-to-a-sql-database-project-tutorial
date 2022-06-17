@@ -4,6 +4,7 @@ import pandas as pd
 import os
 
 load_dotenv()
+
 connection_string = os.env('DB_CONNECTION')
 print(connection_string)
 
