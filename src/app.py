@@ -1,3 +1,12 @@
+from dotenv import load_dotenv
+from sqlalchemy import create_engine
+import pandas as pd
+import os
+
+load_dotenv()
+connection_string = os.env('DB_CONNECTION')
+print(connection_string)
+
 
 
 # 1) Connect to the database here using the SQLAlchemy's create_engine function
