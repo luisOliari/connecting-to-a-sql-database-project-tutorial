@@ -1,3 +1,4 @@
+DB_CONNECTION = mysql+pymysql://rrwq13wswrgluwm2:yfet5wiog1zahyob@dfkpczjgmpvkugnb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/a897ancwoy3csqf4
 .*
 !.gitignore
 *.env
